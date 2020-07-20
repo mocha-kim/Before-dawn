@@ -1,0 +1,10 @@
+{
+    "hooks" : [
+        { "chance" : 0, "cost" : 0 },
+        { "chance" : 1, "cost" : 1000 },
+        { "chance" : 2, "cost" : 2000 },
+        { "chance" : 3, "cost" : 5000 }
+    ],
+
+    "Description" : "물고기에 부딪혀도 견디는 체력을 가집니다."
+}

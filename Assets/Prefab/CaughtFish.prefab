@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5516893368429209692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5516893368429209693}
+  - component: {fileID: 5516893368429209691}
+  - component: {fileID: 5516893368429209690}
+  - component: {fileID: 1914265651741200867}
+  m_Layer: 5
+  m_Name: CaughtFish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5516893368429209693
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516893368429209692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 74, y: 48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5516893368429209691
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516893368429209692}
+  m_CullTransparentMesh: 0
+--- !u!114 &5516893368429209690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516893368429209692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 65a81bf4bc03fe14086fbd2d32853742, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!114 &1914265651741200867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516893368429209692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1e7121c8151434b9597b4bf1d9e931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fishSprites:
+  - {fileID: 21300000, guid: cac5ae33dc7c2694a988500e8b382cd4, type: 3}
+  - {fileID: 21300000, guid: 075c17ddce007724db74b83fc72a8b2f, type: 3}
+  - {fileID: 21300000, guid: e48b64e711975c341aea55f71614c3e8, type: 3}
+  - {fileID: 21300000, guid: 65a81bf4bc03fe14086fbd2d32853742, type: 3}
+  - {fileID: 21300000, guid: 4d68bf420a799d94fb59f903fc0f2362, type: 3}
+  - {fileID: 21300000, guid: 0edb3e2f14db11c4cb31656f4736e310, type: 3}
+  - {fileID: 21300000, guid: 10fc7324630020149bcfa36c474ca82c, type: 3}
+  - {fileID: 21300000, guid: fbdc868dad17e3c4f97bae2ffaddc859, type: 3}
+  - {fileID: 21300000, guid: 7a79d136e5179974e951b4aec8946579, type: 3}
+  - {fileID: 21300000, guid: 64eb86b46e0d93d45a923502b6b02df9, type: 3}
+  - {fileID: 21300000, guid: 678d48cdd31d49f438cf79c82d401c49, type: 3}
+  - {fileID: 21300000, guid: 2c2bbbef1acc8a343857a0c697472980, type: 3}

@@ -1,0 +1,31 @@
+{
+    "level0" : [
+        { "code": "t1", "name": "장화", "eng": "Boot", "probability": 0.4, "cost" : 5, "description" : "장화이다. 냄새가 스멀스멀 올라온다" },
+        { "code": "t2", "name": "마스크", "eng": "Mask", "probability": 0.8, "cost" : 5 , "description" : "누군가가 썼던 마스크이다. 약국에서 구입 할 수 있을 것 같다"},  
+        { "code": "t3", "name": "깨진 시계", "eng": "Over watch", "probability": 1, "cost" : 5, "description" : "깨진 시계이다. 비싸보이긴 하지만 결국 고철더미이다." }
+    ],
+
+    "level1" : [
+        { "code": "f101", "name": "가시고기", "eng": "Stickleback", "probability": 0.4, "cost" : 30, "description" : "가시고기이다. 왠지 모를 부성애가 느껴진다."},
+        { "code": "f102", "name": "금붕어", "eng": "Goldfish", "probability": 0.8, "cost" : 35, "description" : "금붕어이다. 하늘하늘한 지느러미가 아름답다."},  
+        { "code": "f103", "name": "송사리", "eng": "Minnow", "probability": 1, "cost" : 60, "description" : "송사리이다. 물 속이 더우면 가끔 물 밖으로 뛰쳐나간다고 한다."}  
+    ],
+
+    "level2" : [
+        { "code": "f201", "name": "버들치", "eng": "Chinese minnow", "probability": 0.3, "cost" : 100, "description" : "버들치이다. 원래 1급수에 살지만 오염에 대한 적응력이 뛰어나서 종종 하천에도 내려온다."},
+        { "code": "f202", "name": "참붕어", "eng": "Stone moroko", "probability": 0.6, "cost" : 130, "description" : "참붕어이다. 주둥이가 좁고 길어서 입질만 격렬하지 잘 도망치고 미끼만 털어간다." },  
+        { "code": "f203", "name": "메기", "eng": "Catfish", "probability": 1, "cost" : 120, "description" : "메기이다. 수염때문에 고양이를 연상시켜 영어로는 cat fish 라고 한다." }  
+    ],
+
+    "level3" : [
+        { "code": "f301", "name": "배스", "eng": "Bass", "probability": 0.5, "cost" : 150, "description" : "배스이다. 큰입우럭이라고도 부른다. 근데, 우럭아 왜 우럭?" },
+        { "code": "f302", "name": "블루길", "eng": "Blue gill", "probability": 0.9, "cost" : 180, "description" : "블루길이다. 파랑볼우럭이라고도 부른다. 근데, 우럭아 왜 우럭?" },  
+        { "code": "f303", "name": "도미", "eng": "Snapper", "probability": 1, "cost" : 200, "description" : "도미다. 레는 어디로 갔을까?" }  
+    ],
+
+    "level4" : [
+        { "code": "f401", "name": "민물장어", "eng": "Freshwater eel", "probability": 0.8, "cost" : 300, "description" : "장어다. 특정 성별에게 좋다는 소문이 있다." },
+        { "code": "f402", "name": "쏘가리", "eng": "Mandarin fish", "probability": 0.9, "cost" : 350, "description" : "쏘가리이다. 왜 영어이름이 만다린 피쉬일까?" },  
+        { "code": "f403", "name": "가물치", "eng": "Snakeheaded fish", "probability": 1, "cost" : 400, "description" : "가물치이다. 강력한 턱과 날까로운 이빨로 민물을 정복했다."  }  
+    ]
+}

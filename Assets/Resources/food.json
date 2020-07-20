@@ -1,0 +1,22 @@
+{
+    "foods" : [
+        { "healAmount" : 0, "cost" : 0 },
+        { "healAmount" : 20, "cost" : 10 },
+        { "healAmount" : 30, "cost" : 20 },
+        { "healAmount" : 125, "cost" : 50 }
+    ],
+
+    "Description":[
+        "dummy",
+        "유명한 라면.",
+        "어머니의 손맛이 그리워지는 맛이다.",
+        "얼큰한 국물이 하루의 피곤함을 전부 잊게 해준다."
+    ],
+
+    "Name":[
+        "dummy",
+        "징라면",
+        "김밥",
+        "매운탕"
+    ]
+}

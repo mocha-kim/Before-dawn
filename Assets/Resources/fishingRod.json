@@ -1,0 +1,15 @@
+{
+    "fRods" : [
+        { "min" : 3, "max" : 7, "cost" : 0 },
+        { "min" : 5, "max" : 13, "cost" : 100 },
+        { "min" : 8, "max" : 17, "cost" : 300 },
+        { "min" : 10, "max" : 25, "cost" : 500 },
+        { "min" : 20, "max" : 30, "cost" : 700 },
+        { "min" : 30, "max" : 40, "cost" : 900 },
+        { "min" : 35, "max" : 45, "cost" : 1100 },
+        { "min" : 45, "max" : 55, "cost" : 1300 },
+        { "min" : 50, "max" : 70, "cost" : 1500 }
+    ],
+
+    "Description" : "더 멀리 있는 물고기를 낚을 수 있게 합니다."
+}

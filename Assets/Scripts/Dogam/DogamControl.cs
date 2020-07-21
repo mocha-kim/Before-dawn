@@ -14,8 +14,6 @@ public class DogamControl : MonoBehaviour
 
     void Start()
     {
-        BGMMgr.Instance.PauseBGM(0);
-        BGMMgr.Instance.PauseBGM(1);
         TextAsset fishJson = Resources.Load<TextAsset>("fish");
         fishContainer = JsonUtility.FromJson<FishContainerLists>(fishJson.ToString());
     }
@@ -50,8 +48,6 @@ public class DogamControl : MonoBehaviour
     {
         float fadeTime = GameObject.Find("SceneMgr").GetComponent<SceneFade>().BeginFade(1);
         yield return new WaitForSeconds(fadeTime);
-        BGMMgr.Instance.PlayBGM(0);
-        BGMMgr.Instance.PlayBGM(1);
         SceneManager.LoadScene("Game");
     }
 

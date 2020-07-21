@@ -9576,7 +9576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPanel: {fileID: 1541790309}
   descriptions: []
-  currStep: 0
 --- !u!114 &1707825924
 MonoBehaviour:
   m_ObjectHideFlags: 0

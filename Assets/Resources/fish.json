@@ -2,7 +2,7 @@
     "level0" : [
         { "code": "t1", "name": "장화", "eng": "Boot", "probability": 0.4, "cost" : 5, "description" : "장화이다. 냄새가 스멀스멀 올라온다" },
         { "code": "t2", "name": "마스크", "eng": "Mask", "probability": 0.8, "cost" : 5 , "description" : "누군가가 썼던 마스크이다. 약국에서 구입 할 수 있을 것 같다"},  
-        { "code": "t3", "name": "깨진 시계", "eng": "Over watch", "probability": 1, "cost" : 5, "description" : "깨진 시계이다. 비싸보이긴 하지만 결국 고철더미이다." }
+        { "code": "t3", "name": "깨진 안경", "eng": "Glasses", "probability": 1, "cost" : 5, "description" : "깨진 안경이다. 누군가 썼던 흔적이 남아있다." }
     ],
 
     "level1" : [

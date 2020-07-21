@@ -8,9 +8,9 @@ public class GameTutorial : MonoBehaviour
 {
 
     [SerializeField] GameObject nextPanel;
-    public List<GameObject> descriptions;
+    [SerializeField] List<GameObject> descriptions;
     private bool clicked = false;
-    public int currStep;
+    private int currStep;
 
     void Awake()
     {

@@ -69,12 +69,12 @@ public class SFXMgr : MonoBehaviour
 
     public void Swing()
     {
-        sound[0].PlayOneShot(bamboo_swing);
+        sound[0].PlayOneShot(bamboo_swing, sound[0].volume);
     }
 
     public void Splash()
     {
-        sound[0].PlayOneShot(splash);
+        sound[0].PlayOneShot(splash, sound[0].volume);
     }
 
     public void SetPowerguageSound()
@@ -84,22 +84,22 @@ public class SFXMgr : MonoBehaviour
 
     public void BiteSign()
     {
-        sound[0].PlayOneShot(ingame_sign);
+        sound[0].PlayOneShot(ingame_sign, sound[0].volume);
     }
 
     public void MoveToMinigame()
     {
-        sound[0].PlayOneShot(fishComing);
+        sound[0].PlayOneShot(fishComing, sound[0].volume);
     }
 
     public void OpenBag()
     {
-        sound[0].PlayOneShot(open_bag);
+        sound[0].PlayOneShot(open_bag, sound[0].volume);
     }
 
     public void EatFood()
     {
-        sound[0].PlayOneShot(eating_food);
+        sound[0].PlayOneShot(eating_food, sound[0].volume);
     }
 
     public void SetReelUpSound()
@@ -114,7 +114,7 @@ public class SFXMgr : MonoBehaviour
 
     public void FishBump()
     {
-        sound[1].PlayOneShot(minigame_fishBump);
+        sound[1].PlayOneShot(minigame_fishBump, sound[0].volume);
     }
 
     public void FishPass()
@@ -154,13 +154,13 @@ public class SFXMgr : MonoBehaviour
 
     public void Radio()
     {
-        sound[0].PlayOneShot(prologue_radio);
+        sound[0].PlayOneShot(prologue_radio, sound[0].volume);
     }
 
     IEnumerator WaitAndPlay(AudioClip soundToPlay, float second)
     {
         yield return new WaitForSeconds(second);
-        sound[0].PlayOneShot(soundToPlay);
+        sound[0].PlayOneShot(soundToPlay, sound[0].volume);
     }
 
     IEnumerator PlayAndFadeOut(AudioClip soundToFade, float delaySecond = 0f)

@@ -13,7 +13,7 @@ public class SerializablePlayerData
     public int todayGold = 0;
     public int fatigue = 0;
     public int foodBenefit = 0;
-    public int day = 0;
+    public int day = 1;
     public int gold = 0;
     public int fRodLevel = 0;
     public int hookLevel = 0;

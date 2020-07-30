@@ -31,7 +31,7 @@ public class Prologue : MonoBehaviour
         scripts.Add("\"아 네, 부장님. 알겠습니다.\" ");
         scripts.Add("\"네, 들어가세요. 수고하셨습니다.\" ");
         scripts.Add("\"하..\" ");
-        scripts.Add("...오늘 하루도 수고하셨습니다. \n일상에 지친 당신을 위해, \n잔잔한 노을 빛 속으로, 당신을 초대합니다.");
+        scripts.Add("...오늘 하루도 수고하셨습니다. \n일상에 지친 당신을 위해, \n잔잔한 노을 빛 속으로, 당신을 초대합니다. ");
 
         script.gameObject.SetActive(false);
         triangle.SetActive(false);

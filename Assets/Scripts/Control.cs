@@ -140,9 +140,6 @@ public class Control : MonoBehaviour
 
     public void OnClickHomeYes()
     {
-        // day closing
-        SFXMgr.Instance.Walk();
-
         GameMgr.Instance.isPaused = false;
         UnityEngine.Time.timeScale = 1;
         DayClosing();
@@ -188,6 +185,8 @@ public class Control : MonoBehaviour
     
     public void DayClosing()
     {   
+        // day closing
+        SFXMgr.Instance.Walk();
         StartCoroutine(LoadClosingScene());
     }
 

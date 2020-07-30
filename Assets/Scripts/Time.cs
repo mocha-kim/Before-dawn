@@ -61,7 +61,7 @@ public class Time : MonoBehaviour
         }
         else
         {
-        minute.text = (timeElapesd / 10).ToString("0") + 0;
+            minute.text = (timeElapesd / 10).ToString("0") + 0;
         }
     }
 
